@@ -1,0 +1,326 @@
+/*------------------------------------------------------------------
+[Responsive Stylesheet]
+[Table of contents]
+1.  Responsive Max_320px
+2.  Responsive Max_420px
+3.  Responsive Max_479px
+4.  Responsive Max_600px
+5.  Responsive Min_768px
+6.  Responsive Max_767px
+7.  Responsive Max_991px
+8.  Responsive Min_992px
+8.  Responsive Min_992px Max_1199px
+9.  Responsive Min_1200px
+-------------------------------------------------------------------*/
+@media (max-width: 320px) {
+    .nw_footer_social {
+        margin-bottom: 25px;
+    }
+    .nw_consulting_bro a.btn.btn-download-pdf,
+    .nw_submit,
+    .nw_submit:hover {
+        padding: 17px 5px;
+        font-size: 14px;
+    }
+    .element-item .nw_gallery_overlay .nw_gallery_overlay_title {
+        top: 10px;
+    }
+    .element-item .nw_gallery_overlay .nw_gallery_overlay_description {
+        top: 110px;
+    }
+    .nw_gallery_overlay_description a, .nw_gallery_overlay_description {
+        font-size: 14px;
+    }
+}
+@media (max-width: 420px){
+    .nw_logo {
+        text-align: left;
+        margin-left: 0px !important;
+    }
+    .nw_contact_us_page .nw_contact_us h2 {
+        font-size: 18px;
+    }
+    .nw_layers .nw_layer_4,
+    .nw_post_title h1,
+    .nw_cases_strategy h2 {
+        font-size: 30px;
+    }
+    .nw_logo img {
+        height: 35px;
+        width: 150px;
+        vertical-align: middle;
+        margin-top: 5px;
+    }
+    .nw_gallery_overlay .nw_gallery_overlay_title {
+        top: 40px;
+    }
+    .nw_gallery_overlay .nw_gallery_overlay_description {
+        top: 130px;
+    }
+}
+@media (max-width: 479px) {
+    .nw_footer_social ul > li > a i {
+        line-height: 30px;
+    }
+    .nw_footer_social ul > li > a {
+        height: 30px;
+        width: 30px;
+    }
+    .nw_content_gallery .element-item {
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-width: 600px) {
+    .nw_header_info_group.nw_text_center .pull-left {
+        display: none;
+    }
+    .nw_header_info_group.nw_text_center .pull-right {
+        float: none !important;
+        text-align: center;
+    }
+}
+@media (min-width: 768px) {
+    #navbar li.nw_submenu .nw_submenu_items {
+            transition: all 250ms ease-in-out 0s;
+        display: block;
+        width: 250px;
+        padding: 15px;
+        margin-left: 5px;
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+        z-index: -2;
+        top: 150%;
+    }
+    #navbar .active {
+        color: rgb(96, 209, 88);
+    }
+    .nw_navbar_custom .navbar-nav .nw_submenu .active {
+        color: rgb(96, 209, 88);
+    }
+    #navbar .nw_submenu a:hover,
+    #navbar .nw_submenu a:hover::after {
+        transition: all 0.5s;
+        color: rgb(96, 209, 88);
+    }
+    #navbar .nw_submenu .nw_free_consulting:hover {
+        transition: all 0.5s;
+        background-color: rgb(140, 222, 134);
+        color: rgb(255, 255, 255) !important;
+    }
+    #navbar li.nw_submenu:hover>ul.nw_submenu_items {
+        transition: all 250ms ease;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0 0 10px rgba(37, 37, 37, 0.12);
+        visibility: visible;
+        opacity: 1;
+        position: absolute;
+        z-index: 2;
+        top: 100%;
+    }
+    .nw_navbar_custom .navbar-nav .nw_submenu .nw_submenu_items>li {
+        width: 230px;
+        display: block;
+        line-height: normal;
+    }
+    .nw_navbar_custom .navbar-nav .nw_submenu .nw_submenu_items>li>a {
+        width: 100%;
+        line-height: normal;
+    }
+}
+@media (max-width: 767px){   
+    .element-item {
+        position: relative;
+        float: left;
+        width: 40%;
+        height: 50%;
+    }
+    .nw_gallery_overlay_description{
+        top: 185px;
+    }
+    #navbar{
+        width: 100%;
+    }
+    .nw_navbar_header  h1 {
+        width: 220px;
+    }
+    #navbar .nw_menu li{
+        display: inline-grid;
+    }
+    #navbar .nw_menu li{
+        display: grid;
+        padding: 5px;
+    }
+    .nw_navbar_custom .navbar-nav .nw_submenu a{
+        line-height: 20px;
+        text-align: center;
+    }
+    .nw_navbar_custom .navbar-nav .nw_submenu a:hover{
+        line-height: 20px;
+        text-align: center;
+        color: rgb(116, 214, 110);
+    }
+    .nw_navbar_custom .navbar-nav .nw_submenu > a,
+    .nw_navbar_custom .navbar-nav .nw_submenu > a:hover{
+        font-size: 19px;
+        color: rgb(116, 214, 110);
+    }
+    .nw_top_header a, span {
+        font-size: 12px;
+    }
+    .nw_layer_1 {
+        position: relative;
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .nw_container_gallery.nw_post_row .element-item_1 img,
+    .nw_container_gallery.nw_post_row .element-item img {
+        inline-size: -moz-available;
+        height: auto;
+    }
+    .nw_container_gallery .element-item_1:hover .nw_gallery_overlay,
+    .nw_container_gallery .element-item:hover .nw_gallery_overlay {
+        width: 96%;
+    }
+    .nw_container_gallery  .element-item_1.element-item_2.element-item_3 {
+        width: 96%;
+        height: 100%;
+    }
+    .nw_container_gallery  .element-item_1.element-item_2.element-item_3:hover .nw_gallery_overlay {
+        width: 100%;
+    }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+    .nw_container_gallery .element-item_1.element-item_2.element-item_3 .nw_gallery_overlay_title {
+        top: 170px;
+    }
+    .nw_container_gallery .element-item_1.element-item_2.element-item_3 .nw_gallery_overlay_description {
+        top: 245px;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    .nw_background_style .nw_layers {
+        top: 355px;
+    }
+    .nw_layers {
+        margin-top: 60px;
+    }
+    .element-item_1.element-item_2.element-item_3 .nw_gallery_overlay_description {
+        top: 160px;
+    }
+    .element-item_1.element-item_2.element-item_3 .nw_gallery_overlay_title {
+        top: 60px;
+    }
+}
+@media (max-width: 991px) {
+    .nw_container_gallery.nw_post_row .element-item_1 img,
+    .nw_container_gallery.nw_post_row .element-item img {
+        inline-size: -moz-available;
+        height: auto;
+    }
+    .nw_container_gallery.nw_post_row .element-item img {
+        width: 96%;
+    }
+    .nw_content_gallery .element-item,
+    .nw_content_gallery .element-item.element-item_1 {
+        width: 100%;
+        background: white;
+    }
+    .element-item.element-item_1 {
+        width: 100%;
+        background: white;
+    }
+    .element-item.element-item_1 img {
+        width: 100%;
+    }
+    .element-item_1.element-item_2.element-item_3 {
+        width: 47%;
+    }
+    .nw_container_gallery.nw_post_row .element-item_1.element-item_2.element-item_3 img {
+        width: 100%;
+        height: 100%;
+    }
+    #navbar{
+        width: 100%;
+    }
+    .nw_navbar_custom .navbar-nav .nw_submenu a {
+        font-weight: 600;
+        font-size: 13px;
+    }
+    .navbar-collapse .collapse {
+        display: none;
+    }
+    .nw_navbar_custom .nw_logo {
+        height: 45px;
+        margin: 20.5px auto;
+        position: relative;
+        left: 0;
+    }
+    .nw_navbar_header  h1 {
+        width: 220px;
+    }
+    .nw_contact_us_container .nw_subtitle, 
+    .nw_contact_us_container .nw_title {
+        padding-left: 0px;
+    }
+    .footer_title {
+        font-size: 22px;
+    }
+    .nw_empty {
+        height: 10px;
+    }
+    .nw_post_title .nw_title {
+        width: 90%;
+    }
+    .nw_our_industries .nw_our_industries_content {
+        display: block;
+    }
+    .nw_news_content {
+        padding-bottom: 50px !important;
+    }
+    .nw_our_industries_content .nw_icon {
+        padding-bottom: 10px;
+    }
+    .nw_rights_container div:first-child {
+        text-align: center !important;
+        float: none !important;
+    }
+    .nw_rights_container div:last-child {
+        text-align: center !important;
+        float: none !important;
+    }
+    #home {
+        margin-bottom: 30px;
+    }
+    .nw_consulting_bro {
+        margin-bottom: 30px;
+    }
+    .nw_header .nw_navbar_header.navbar-header {
+        float: none;
+    }
+}
+@media (min-width: 992px) {
+    .nw_our_industries .nw_our_industries_content {
+        display: inline-flex;
+    }
+    .nw_news_content {
+        margin: 0px;
+        height: auto;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+   
+    .nw_navbar_custom .navbar-nav .nw_submenu a {
+        font-weight: 600;
+        font-size: 13px;
+    }
+    .nw_post_title .nw_title {
+        width: 50%;
+    }
+}
+@media (min-width: 1200px) {
+    .nw_post_title .nw_title {
+        width: 50%;
+    }
+}
