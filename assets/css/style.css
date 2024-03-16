@@ -368,7 +368,7 @@ span {
 /*---------------------------------------------*/
 .nw_navbar_custom .nw_logo {
     height: 45px;
-    margin: 18px 0;
+    margin: 0px 0 !important;
     padding-left: 15px;
     position: relative;
     left: 0;
@@ -377,7 +377,7 @@ span {
     font-weight: 900;
 }
 .nw_logo img {
-    height: 45px;
+    height: 83px !important;
     width: auto;
     vertical-align: middle;
 }
@@ -1003,6 +1003,8 @@ span {
     position: relative;
 }
 .nw_footer_description {
+    max-width: 420px !important;
+    text-align: justify !important;
     height: auto;
     margin-top: 20px;
     font-size: 17px;
@@ -1019,7 +1021,7 @@ span {
     background-color: #60d158;
 }
 #footer_logo {
-    height: 53px;
+    height: 100px;
 }
 #footer_logo img {
     height: 100%;
@@ -1089,7 +1091,7 @@ span {
 .footer_phone_number {
     height: 27px;
     margin-top: 20px;
-    font-size: 22px;
+    font-size: 18px;
     color: rgba(37, 37, 37, 0.5);
     line-height: 26px;
     text-align: left;
@@ -1664,3 +1666,40 @@ ul.nw_tabs_list li.active a:active {
     padding: 10px 0;
     margin: 0px 15px;
   }
+
+  @media (min-width: 1200px) {
+    .nw_post_title .nw_title {
+      width: 65% !important;
+    }
+  }
+.serviceCard{
+    min-height: 245px !important;
+    border-radius: 5px !important;
+}
+
+.nw_layer_3 a {
+    position: relative;
+    top: 25px;
+    font-size: 17px;
+    line-height: 17px;
+    font-weight: 500;
+    color: rgb(0, 0, 0) !important;
+    border-style: solid;
+    border-width: 2px;
+    padding: 16px 35px;
+  }
+
+.detailServiceButton{ 
+    position: relative;
+    top: 25px;
+    font-size: 17px;
+    line-height: 17px;
+    font-weight: 500;
+    color: rgb(0, 0, 0) !important;
+    border-style: solid;
+    border-width: 2px;
+    padding: 16px 35px; 
+} 
+.detailServiceButtonDetails{  
+    color: rgb(0, 0, 0) !important; 
+} 
